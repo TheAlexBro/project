@@ -60,7 +60,7 @@ a {
 
 /* ------------------menu----------------------------------- */
 
-body, html  {
+html, body {
   height: 100%;
 }
 
@@ -70,6 +70,10 @@ body, html  {
   min-height: 100%;
   overflow: hidden;
   min-width: 1200px;
+}
+
+.wrapper__content {
+  flex: 1;
 }
 
 ul  {
@@ -178,6 +182,11 @@ img {
 
 .btn__about {
   margin-left: 10px;
+}
+
+.about__desc .btn:hover {
+  background: transparent;
+  border: 1px solid #fff;
 }
 
 .btn:hover {
@@ -559,25 +568,45 @@ img {
   margin-right: 10px;
 }
 
-.socials__item:last-child{
+.socials__item:last-child {
   margin-right: 0;
 }
 
 
-.social__item--icon--telegram .social__link{
-  background-image: url(./img/telegram.png);
+.social__item--icon--telegram .social__link {
+  background-image: url(./img/icons/telegram.png);
+  opacity: 0.4;
 }
 
-.social__item--icon--vk .social__link{
-  background-image: url(./img/vk.png);
+.social__item--icon--telegram .social__link:hover {
+  opacity: 1;
+}
+
+.social__item--icon--vk .social__link {
+  background-image: url(./img/icons/vk.png);
+  opacity: 0.4;
+}
+
+.social__item--icon--vk .social__link:hover {
+  opacity: 1;
 }
 
 .social__item--icon--fb .social__link{
-  background-image: url(./img/fb.png);
+  background-image: url(./img/icons/fb.png);
+  opacity: 0.4;
 }
 
-.social__item--icon--insta .social__link{
-  background-image: url(./img/instagram.png);
+.social__item--icon--fb .social__link:hover {
+  opacity: 1;
+}
+
+.social__item--icon--insta .social__link {
+  background-image: url(./img/icons/instagram.png);
+  opacity: 0.4;
+}
+
+.social__item--icon--insta .social__link:hover {
+  opacity: 1;
 }
 
 /* -----------Services page------------------------------------------------------ */

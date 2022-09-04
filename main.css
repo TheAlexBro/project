@@ -14,6 +14,12 @@ a {
   color: inherit;
 }
 
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
 .container  {
   margin: 0 auto;
   width: 1150px;
@@ -451,9 +457,9 @@ img {
   line-height: 32px;
 }
 
-/* .pager__item--active .pager__link{
+.pager__item--active .pager__link{
   background: #8F00FF
-} */
+}
 
 .pager__link:hover{
   background: #8F00FF
@@ -671,7 +677,7 @@ img {
 }
 
 .page-content {
-  background: #F2F2F2;
+  background: #fff;
   color: #303030;
   padding: 97px 0;
 }
@@ -706,7 +712,7 @@ margin-bottom: 50.5px;
 /* ------------inner section----------------------- */
 
 .inner-section {
-  background: #fff;
+  background: #F2F2F2;
   color: #1A1B1E;
   padding: 95px;
 }
@@ -750,3 +756,231 @@ margin-bottom: 50.5px;
 .inner-footer {
   margin-top: auto;
 }
+
+
+/* ---------------revievs-----------------------------------------------
+/* --------------------------------------------------------------------------- */
+
+
+
+.reviews {
+  column-count: 2;
+  column-gap: 30px;
+  margin-bottom: 53px;
+}
+
+.reviews__item {
+  margin-bottom: 20px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 50px 48px 31.5px 27px;
+  background: #F4F5F5;
+  border-radius: 5px;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.review__photo {
+  display: flex;
+  align-items: center;
+}
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #1A1B1E;
+  text-decoration: none;
+}
+
+.review__user:hover {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.reviev__user--color--blue {
+  color: #2E77A4;
+  text-decoration: underline;
+}
+
+.review__user::after {
+  content: url("./img/avatar/vk-blue1.png");
+  height: 30px;
+  margin-bottom: 11px;
+  margin-left: 7px;
+}
+
+.review__avatar {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.tag {
+  font-size: 13px;
+  color: #303030;
+  padding: 8px 16px;
+  border-radius: 50px;
+  background: #E7E7E7;
+}
+
+.tag--bg--green {
+  background: #B9EAE4;
+}
+
+.review__title {
+  color: #1A1B1E;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 23px;
+}
+
+.review__content-text {
+  color: #818181;
+  font-size: 16px;
+  margin-bottom: 48.5px;
+  line-height: 27px;
+}
+
+.review__date {
+  font-size: 14px;
+  color: #1A1B1E;
+  font-weight: 600;
+} 
+
+/* --------separator---------------- */
+
+.separator {
+  background: #17191C url("./img/19629\ 1.png") right 14% bottom no-repeat;
+  min-height: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  color: #fff;
+}
+
+.separator__content {
+  max-width: 40%
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+/* --------form----------- */
+
+.form__row {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.form__input {
+  flex: 1;
+  margin-right: 30px;
+  border-radius: 5px;
+  border: none;
+  background: #fff;
+  padding: 22px 30px;
+  font-size: 18px;
+  color: #1A1B1E;
+}
+
+
+.form--focus--violet {
+  outline: 2px solid #8F00FF;
+}
+
+.form__input:focus {
+  outline: 2px solid #8F00FF;
+}
+
+.form__input:last-child {
+  margin-right: 0;
+}
+
+.form__input::placeholder {
+  color: #666;
+}
+
+.form__input--textarea {
+  height: 232px;
+}
+
+/* -----checkbox---------------- */
+
+.controls__elem {
+  cursor: pointer;
+}
+
+.controls__checkbox:checked ~ .controls__tag {
+  background: #B9EAE4;
+}
+
+.controls__checkbox {
+  display: none;
+}
+
+.form__controls {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.form__controls__title {
+  margin-right: 30px;
+  width: 36%;
+  color: #1A1B1E;
+  font-size: 18px;
+}
+
+.controls {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.controls__item {
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #303030;
+}
+
+.form__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__btn {
+  margin-right: 20px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
+}
+
+.btn--color--black {
+  background: #2B2B2B;
+  color: #fff;
+}
+
+.btn--color--violet {
+  background: #8F00FF;
+  color: #fff;
+}
+

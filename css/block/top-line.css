@@ -1,0 +1,20 @@
+.top__line  {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  background: #202123 url(/img/fon1\ obrez.png) center top no-repeat;
+}
+
+.top-line__container  {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page__title  {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 1;
+}

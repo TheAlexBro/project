@@ -1,0 +1,46 @@
+.about {
+  display: flex;
+}
+
+.about:before, .about__desc{
+  vertical-align: top;
+}
+
+
+.about:before {
+  content: "";
+  width: 489px;
+  height: 505px;
+  background: url(/img/about.png) center center / cover no-repeat;
+  display: block;
+}
+
+.about__desc{
+  background: linear-gradient(87.62deg, #8F00FF -2.44%, #00A3FF 100%);
+  padding: 62px 198px 81px 76px;
+  max-width: 785px;
+  margin-left: -142px;
+  margin-top: 105px;
+  padding-top: 68px;
+}
+
+.about__title{
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 37px;
+  margin-left: 10px;
+}
+
+.about__desc-text{
+  margin-bottom: 58px;
+  line-height: 1.7;
+  margin-left: 10px;
+}
+
+.about__desc-text p{
+  margin-bottom: 20px;
+}
+
+.about__desc-text p:last-child{
+  margin-bottom: 0;
+}

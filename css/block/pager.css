@@ -1,0 +1,37 @@
+.pager{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .pager__display{
+   margin-right: 24px;
+ }
+ 
+ .pager__list{
+   display: flex;
+   align-items: center;
+ }
+ 
+ .pager__item{
+   text-align: center;
+ }
+ 
+ .pager__link{
+   display: block;
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   position: relative;
+   text-decoration: none;
+   font-weight: bold;
+   line-height: 32px;
+ }
+ 
+ .pager__item--active .pager__link{
+   background: #8F00FF
+ }
+ 
+ .pager__link:hover{
+   background: #8F00FF
+ }

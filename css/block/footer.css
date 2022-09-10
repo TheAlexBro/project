@@ -1,0 +1,33 @@
+.footer-container{
+  margin-top: auto;
+}
+
+.footer-container__content  {
+  border-top: 1px solid #2f3034;
+}
+
+.footer{
+  position:relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-container__section {
+  height: 150px;
+  margin-top: 13px;
+}
+
+.footer__col  {
+  display: flex;
+  align-items: center;
+}
+
+.footer__col--align--rite {
+  align-items: flex-end;
+}
+
+.menu__footer {
+  position: absolute;
+  left: 286px;
+}

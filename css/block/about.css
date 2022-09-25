@@ -11,7 +11,7 @@
   content: "";
   width: 489px;
   height: 505px;
-  background: url(/img/about.png) center center / cover no-repeat;
+  background: url("../../img/about.png") center center / cover no-repeat;
   display: block;
 }
 
